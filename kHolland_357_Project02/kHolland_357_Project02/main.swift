@@ -255,7 +255,7 @@ class JsonIO
     //This function creates a file if there isn't one, and updates it with the new dictionary parameter if there is one
     func writeFile(inputDict : Dictionary<String,String> )
     {
-        print("GOT HERE TO WRITE")
+        
         var dictionary = inputDict
         
         //create file and write JSON
